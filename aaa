@@ -1,0 +1,579 @@
+{
+   "chromePolicies": {
+      "AllowDinosaurEasterEgg": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": false
+      },
+      "AllowKioskAppControlChromeVersion": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "ArcBackupRestoreServiceEnabled": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": 0
+      },
+      "ArcEnabled": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "ArcGoogleLocationServicesEnabled": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": 0
+      },
+      "ArcPolicy": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": "{\"accountTypesWithManagementDisabled\":[\"com.google\"],\"apkCacheEnabled\":true,\"applications\":[],\"availableAppSetPolicy\":\"WHITELIST\",\"statusReportingSettings\":{\"applicationReportsEnabled\":true,\"profileSettingsEnabled\":true,\"softwareInfoEnabled\":true}}"
+      },
+      "AttestationEnabledForDevice": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "AttestationEnabledForUser": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "AttestationForContentProtectionEnabled": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "AutoFillEnabled": {
+         "error": "This policy has been deprecated.",
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "CaptivePortalAuthenticationIgnoresProxy": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": false
+      },
+      "CastReceiverEnabled": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": false
+      },
+      "ChromeOsMultiProfileUserBehavior": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": "primary-only"
+      },
+      "ChromeOsReleaseChannel": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": "stable-channel"
+      },
+      "ChromeOsReleaseChannelDelegated": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "DefaultGeolocationSetting": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": 1
+      },
+      "DeveloperToolsAvailability": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": 2
+      },
+      "DeveloperToolsDisabled": {
+         "error": "This policy has been deprecated.\nIgnored because it was overridden by DeveloperToolsAvailability.\nThis policy has been deprecated.",
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "DeviceAllowNewUsers": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "DeviceAutoUpdateDisabled": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "DeviceBlockDevmode": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "DeviceDataRoamingEnabled": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "DeviceEphemeralUsersEnabled": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "DeviceGuestModeEnabled": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "DeviceLocalAccounts": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": [ {
+            "id": "dfbmcelmchhnfkmpccoabeplnmdljeod",
+            "kiosk_app_id": "dfbmcelmchhnfkmpccoabeplnmdljeod",
+            "type": 1
+         }, {
+            "id": "mdmkkicfmmkgmpkmkdikhlbggogpicma",
+            "kiosk_app_id": "mdmkkicfmmkgmpkmkdikhlbggogpicma",
+            "type": 1
+         }, {
+            "id": "icibhnblmgngpigmgpfacmjmdijlpfkg",
+            "kiosk_app_id": "icibhnblmgngpigmgpfacmjmdijlpfkg",
+            "type": 1
+         }, {
+            "id": "kglanclfgliekimcflbfmcjohpikhchb",
+            "kiosk_app_id": "kglanclfgliekimcflbfmcjohpikhchb",
+            "type": 1
+         }, {
+            "id": "jkhhhpifhfhnbcnnmlnnlbemlbdbojng",
+            "kiosk_app_id": "jkhhhpifhfhnbcnnmlnnlbemlbdbojng",
+            "type": 1
+         } ]
+      },
+      "DeviceLoginScreenAutoSelectCertificateForUrls": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": [  ]
+      },
+      "DeviceLoginScreenDomainAutoComplete": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": "students.usd385.org"
+      },
+      "DeviceLoginScreenInputMethods": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": [  ]
+      },
+      "DeviceLoginScreenLocales": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": [  ]
+      },
+      "DeviceMetricsReportingEnabled": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "DeviceOpenNetworkConfiguration": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": "{\n   \"GlobalNetworkConfiguration\": {\n      \"AllowOnlyPolicyNetworksToAutoconnect\": false,\n      \"AllowOnlyPolicyNetworksToConnect\": false\n   },\n   \"NetworkConfigurations\": [ {\n      \"GUID\": \"{0fe63fab-c4f2-42be-a418-8a60139a5447}\",\n      \"Name\": \"Chromebooks\",\n      \"ProxySettings\": {\n         \"Type\": \"Direct\"\n      },\n      \"Type\": \"WiFi\",\n      \"WiFi\": {\n         \"AutoConnect\": true,\n         \"HiddenSSID\": true,\n         \"Passphrase\": \"********\",\n         \"SSID\": \"Chromebooks\",\n         \"Security\": \"WPA-PSK\"\n      }\n   }, {\n      \"GUID\": \"{f50669e6-793a-4cd7-9714-c37fc37595fb}\",\n      \"Name\": \"Andover Wireless\",\n      \"ProxySettings\": {\n         \"Type\": \"Direct\"\n      },\n      \"Type\": \"WiFi\",\n      \"WiFi\": {\n         \"AutoConnect\": false,\n         \"EAP\": {\n            \"AnonymousIdentity\": \"teacher\",\n            \"Identity\": \"teacher\",\n            \"Inner\": \"Automatic\",\n            \"Outer\": \"PEAP\",\n            \"Password\": \"********\",\n            \"Recommended\": [ \"AnonymousIdentity\", \"Identity\", \"Password\" ],\n            \"SaveCredentials\": true,\n            \"UseSystemCAs\": true\n         },\n         \"HiddenSSID\": false,\n         \"SSID\": \"USD385-Wireless\",\n         \"Security\": \"WPA-EAP\"\n      }\n   }, {\n      \"GUID\": \"{07720bea-0c66-4ece-99b5-4b1b13ae8dfa}\",\n      \"Name\": \"Primary_N\",\n      \"ProxySettings\": {\n         \"Type\": \"Direct\"\n      },\n      \"Type\": \"WiFi\",\n      \"WiFi\": {\n         \"AutoConnect\": false,\n         \"HiddenSSID\": false,\n         \"Passphrase\": \"********\",\n         \"SSID\": \"Primary_N\",\n         \"Security\": \"WPA-PSK\"\n      }\n   }, {\n      \"GUID\": \"{143cccd8-d437-4e58-b861-b1f56729134d}\",\n      \"Name\": \"AppleTV\",\n      \"ProxySettings\": {\n         \"Type\": \"Direct\"\n      },\n      \"Type\": \"WiFi\",\n      \"WiFi\": {\n         \"AutoConnect\": false,\n         \"HiddenSSID\": false,\n         \"Passphrase\": \"********\",\n         \"SSID\": \"AppleTV\",\n         \"Security\": \"WPA-PSK\"\n      }\n   }, {\n      \"GUID\": \"{3c965e6c-2cb3-4100-a9ca-ca91a9d0733f}\",\n      \"Name\": \"pda_access\",\n      \"ProxySettings\": {\n         \"Type\": \"Direct\"\n      },\n      \"Type\": \"WiFi\",\n      \"WiFi\": {\n         \"AutoConnect\": false,\n         \"HiddenSSID\": true,\n         \"Passphrase\": \"********\",\n         \"SSID\": \"pda_access\",\n         \"Security\": \"WPA-PSK\"\n      }\n   }, {\n      \"GUID\": \"{2d3728a8-0c6c-448a-b13b-31be1c58a3fb}\",\n      \"Name\": \"USD385-GUEST\",\n      \"ProxySettings\": {\n         \"Type\": \"Direct\"\n      },\n      \"Type\": \"WiFi\",\n      \"WiFi\": {\n         \"AutoConnect\": false,\n         \"HiddenSSID\": true,\n         \"SSID\": \"USD385-GUEST\",\n         \"Security\": \"None\"\n      }\n   } ]\n}\n"
+      },
+      "DeviceShowUserNamesOnSignin": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "DeviceTargetVersionPrefix": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": ""
+      },
+      "DeviceUpdateHttpDownloadsEnabled": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "DeviceUpdateScatterFactor": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": 0
+      },
+      "DeviceUserWhitelist": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": [ "*@usd385.org", "*@students.usd385.org" ]
+      },
+      "DisableSafeBrowsingProceedAnyway": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "DisplayRotationDefault": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": 0
+      },
+      "EasyUnlockAllowed": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": false
+      },
+      "EcryptfsMigrationStrategy": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": 4
+      },
+      "EnableSyncConsent": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "ExtensionAllowedTypes": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": [ "extension", "user_script", "hosted_app", "legacy_packaged_app", "platform_app" ]
+      },
+      "ExtensionInstallBlacklist": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": [ "*" ]
+      },
+      "ExtensionInstallForcelist": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": [ "mfhehppjhmmnlfbbopchdfldgimhfhfk;https://clients2.google.com/service/update2/crx", "kglanclfgliekimcflbfmcjohpikhchb;https://clients2.google.com/service/update2/crx", "jkhhhpifhfhnbcnnmlnnlbemlbdbojng;https://clients2.google.com/service/update2/crx", "emifjioojhabnleoobgjegjknecpbfbm;https://clients2.google.com/service/update2/crx", "adkcpkpghahmbopkjchobieckeoaoeem;https://lsrelay-extensions-production.s3.amazonaws.com/chrome-filter/16c6f3ac82fde7ff1b2e0678457f87ac6872fb504ce7f8ff478c2599f367ba95/ChromeFilter.xml", "kkbmdgjggcdajckdlbngdjonpchpaiea;https://lsrelay-extensions-production.s3.amazonaws.com/classroom/16c6f3ac82fde7ff1b2e0678457f87ac6872fb504ce7f8ff478c2599f367ba95/Classroom.xml", "icmgjiknkpcfkhgajgmpkkehdjmidlgl;https://lightspeed-apps.s3.amazonaws.com/chrome-monitor/auto-update.xml" ]
+      },
+      "ExtensionInstallWhitelist": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": [ "gfcbebjdigncefnokoncehghgfndjcgn", "bkpenclhmiealbebdopglffmfdiilejc", "inoeonmfapjbbkmdafoankkfajkcphgd", "fdiljnnpfniifgbaippdemegmlhoohka", "bgofflgeghkhocbociocnckocbjmomjh", "mgbpliiilnmkgnjdfoneablfpmflghip", "hjngolefdpdnooamgdldlkjgmdcmcjnc", "mbcfmcoibkecmionmehabndbljdleekf", "iimbdmgkimpbhimdjnmiffmeefbppijo", "hdhinadidafjejdhmfkjgnolgimiaplp", "iljojpiodmlhoehoecppliohmplbgeij", "bhdheahnajobgndecdbggfmcojekgdko", "lijhjhlnfifgoabbihoobnfapogkcjgk", "mfhehppjhmmnlfbbopchdfldgimhfhfk", "mmeijimgabbpbgpdklnllpncmdofkcpn", "apdfllckaahabafndbhieahigkjlhalf", "aohghmighlieiainnegkcijnfilokake", "felcaaldnbdncclmgdcncolpebgiejap", "aapocclcgogkmnckokdopfmhonfmgoek", "kbfnbcaeplbcioakkpcpgfkobkghlhen" ]
+      },
+      "ExtensionSettings": {
+         "error": "Schema validation error at \"*\": Invalid URL pattern 'https://search.yahoo.com; https://images.search.yahoo.com' for attribute runtime_blocked_hosts",
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": {
+            "*": {
+               "blocked_permissions": [ "proxy", "vpnProvider" ],
+               "runtime_blocked_hosts": [ "https://search.yahoo.com; https://images.search.yahoo.com" ]
+            }
+         }
+      },
+      "ExternalStorageDisabled": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "ExternalStorageReadOnly": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "ForceGoogleSafeSearch": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "ForceYouTubeRestrict": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": 1
+      },
+      "HeartbeatEnabled": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "HomepageIsNewTabPage": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "HomepageLocation": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": "www.usd385.org"
+      },
+      "IncognitoModeAvailability": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": 1
+      },
+      "InstantTetheringAllowed": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": false
+      },
+      "LidCloseAction": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": 0
+      },
+      "LogUploadEnabled": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "LoginVideoCaptureAllowedUrls": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": [  ]
+      },
+      "MaxInvalidationFetchDelay": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": 10000
+      },
+      "NTPContentSuggestionsEnabled": {
+         "error": "Unknown policy.",
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": false
+      },
+      "NativePrinters": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": [  ]
+      },
+      "NetBiosShareDiscoveryEnabled": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": false
+      },
+      "NetworkThrottlingEnabled": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": {
+            "download_rate_kbits": 0,
+            "enabled": false,
+            "upload_rate_kbits": 0
+         }
+      },
+      "OpenNetworkConfiguration": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": "{\n   \"Certificates\": [ {\n      \"GUID\": \"{0ef40c37-8e62-4947-893a-dd7e72e95eec}\",\n      \"TrustBits\": [ \"Web\" ],\n      \"Type\": \"Authority\",\n      \"X509\": \"-----BEGIN CERTIFICATE-----\\nMIID/jCCA2egAwIBAgIJAMZ4rxJ/gIP5MA0GCSqGSIb3DQEBCwUAMIGxMQswCQYD\\nVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEUMBIGA1UEBxMLQmFrZXJzZmll\\nbGQxGzAZBgNVBAoTEkxpZ2h0c3BlZWQgU3lzdGVtczEQMA4GA1UECxMHU3VwcG9y\\ndDEaMBgGA1UEAxMRTGlnaHRzcGVlZCBSb2NrZXQxLDAqBgkqhkiG9w0BCQEWHXN1\\ncHBvcnRAbGlnaHRzcGVlZHN5c3RlbXMuY29tMB4XDTE2MDMwODE2MTAxMVoXDTE5\\nMDYwODE2MTAxMVowgbExCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlh\\nMRQwEgYDVQQHEwtCYWtlcnNmaWVsZDEbMBkGA1UEChMSTGlnaHRzcGVlZCBTeXN0\\nZW1zMRAwDgYDVQQLEwdTdXBwb3J0MRowGAYDVQQDExFMaWdodHNwZWVkIFJvY2tl\\ndDEsMCoGCSqGSIb3DQEJARYdc3VwcG9ydEBsaWdodHNwZWVkc3lzdGVtcy5jb20w\\ngZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMoa0ypN10RIPm5AlwWXqU8QNdQp\\npkDmbthaJDn2H0GePYifVx1NUDehXiDncdZUQI2nuQDij3F8AW3EU9fg+V+xfD33\\nItujAhpR5Qnl5dG5ilnhh4ccZZd2/KU7H298QUK4JxxQ0Re3wGuO2vvMC/1tosRw\\n6PzdtYxo8fas7LvlAgMBAAGjggEaMIIBFjAdBgNVHQ4EFgQUDpFcCe2h2R+qvoo0\\nroVCUuj2k78wgeYGA1UdIwSB3jCB24AUDpFcCe2h2R+qvoo0roVCUuj2k7+hgbek\\ngbQwgbExCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRQwEgYDVQQH\\nEwtCYWtlcnNmaWVsZDEbMBkGA1UEChMSTGlnaHRzcGVlZCBTeXN0ZW1zMRAwDgYD\\nVQQLEwdTdXBwb3J0MRowGAYDVQQDExFMaWdodHNwZWVkIFJvY2tldDEsMCoGCSqG\\nSIb3DQEJARYdc3VwcG9ydEBsaWdodHNwZWVkc3lzdGVtcy5jb22CCQDGeK8Sf4CD\\n+TAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4GBAG82p3jeg77XfjY/lIlg\\nKTmP5ap/J5u9fECaD/XJI1Qmgde8y6r2hq5Yg7PeDaAxuZEfOo7xxYA70Vzt0OAo\\nPDc64zjJg3PPwkLL6Z7kNsJzjmRGIg2PPyPQDUJlvotwi5N43QU41kqcGM57mNlz\\nw9JrRauMFauaxp5RBhx2dfGl\\n-----END CERTIFICATE-----\"\n   } ],\n   \"NetworkConfigurations\": [ {\n      \"GUID\": \"{088bd93c-c79a-4db0-a9b4-d82fc25fd51a}\",\n      \"Name\": \"Chromebooks\",\n      \"ProxySettings\": {\n         \"Type\": \"Direct\"\n      },\n      \"Type\": \"WiFi\",\n      \"WiFi\": {\n         \"AutoConnect\": true,\n         \"HiddenSSID\": true,\n         \"Passphrase\": \"********\",\n         \"SSID\": \"Chromebooks\",\n         \"Security\": \"WPA-PSK\"\n      }\n   }, {\n      \"GUID\": \"{4ded7d6f-43fc-4314-b307-57b7d009af12}\",\n      \"Name\": \"Andover Wireless\",\n      \"ProxySettings\": {\n         \"Type\": \"Direct\"\n      },\n      \"Type\": \"WiFi\",\n      \"WiFi\": {\n         \"AutoConnect\": false,\n         \"EAP\": {\n            \"AnonymousIdentity\": \"teacher\",\n            \"Identity\": \"teacher\",\n            \"Inner\": \"Automatic\",\n            \"Outer\": \"PEAP\",\n            \"Password\": \"********\",\n            \"Recommended\": [ \"AnonymousIdentity\", \"Identity\", \"Password\" ],\n            \"SaveCredentials\": true,\n            \"UseSystemCAs\": true\n         },\n         \"HiddenSSID\": false,\n         \"SSID\": \"USD385-Wireless\",\n         \"Security\": \"WPA-EAP\"\n      }\n   }, {\n      \"GUID\": \"{060d3595-bab4-4883-9394-dbb1e4038b23}\",\n      \"Name\": \"Primary_N\",\n      \"ProxySettings\": {\n         \"Type\": \"Direct\"\n      },\n      \"Type\": \"WiFi\",\n      \"WiFi\": {\n         \"AutoConnect\": false,\n         \"HiddenSSID\": false,\n         \"Passphrase\": \"********\",\n         \"SSID\": \"Primary_N\",\n         \"Security\": \"WPA-PSK\"\n      }\n   }, {\n      \"GUID\": \"{5f9d4b41-f928-4a66-97f5-8aaa5646f9e9}\",\n      \"Name\": \"AppleTV\",\n      \"ProxySettings\": {\n         \"Type\": \"Direct\"\n      },\n      \"Type\": \"WiFi\",\n      \"WiFi\": {\n         \"AutoConnect\": false,\n         \"HiddenSSID\": false,\n         \"Passphrase\": \"********\",\n         \"SSID\": \"AppleTV\",\n         \"Security\": \"WPA-PSK\"\n      }\n   }, {\n      \"GUID\": \"{93397900-d009-4971-9a91-4e9bc17dce43}\",\n      \"Name\": \"Butler\",\n      \"ProxySettings\": {\n         \"Type\": \"Direct\"\n      },\n      \"Type\": \"WiFi\",\n      \"WiFi\": {\n         \"AutoConnect\": false,\n         \"HiddenSSID\": false,\n         \"Passphrase\": \"********\",\n         \"SSID\": \"butler\",\n         \"Security\": \"WPA-PSK\"\n      }\n   }, {\n      \"GUID\": \"{e21893ac-61e8-4468-888f-785c62a482f1}\",\n      \"Name\": \"pda_access\",\n      \"ProxySettings\": {\n         \"Type\": \"Direct\"\n      },\n      \"Type\": \"WiFi\",\n      \"WiFi\": {\n         \"AutoConnect\": false,\n         \"HiddenSSID\": true,\n         \"Passphrase\": \"********\",\n         \"SSID\": \"pda_access\",\n         \"Security\": \"WPA-PSK\"\n      }\n   } ]\n}\n"
+      },
+      "PacHttpsUrlStrippingEnabled": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": false
+      },
+      "PasswordManagerEnabled": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "PowerManagementIdleSettings": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": {
+            "AC": {
+               "IdleAction": "Suspend"
+            },
+            "Battery": {
+               "IdleAction": "Suspend"
+            }
+         }
+      },
+      "ProxySettings": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": {
+            "ProxyMode": "direct"
+         }
+      },
+      "QuicAllowed": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": false
+      },
+      "QuickUnlockModeWhitelist": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": [  ]
+      },
+      "RebootAfterUpdate": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "ReportArcStatusEnabled": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "ReportDeviceActivityTimes": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "ReportDeviceBootMode": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "ReportDeviceHardwareStatus": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "ReportDeviceNetworkInterfaces": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "ReportDeviceSessionStatus": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "ReportDeviceUsers": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "ReportDeviceVersionInfo": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "SAMLOfflineSigninTimeLimit": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": 1209600
+      },
+      "SafeBrowsingEnabled": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "ShowHomeButton": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": true
+      },
+      "SmsMessagesAllowed": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceEnterpriseDefault",
+         "value": false
+      },
+      "SystemTimezone": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": "America/Chicago"
+      },
+      "TPMFirmwareUpdateSettings": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": {
+
+         }
+      },
+      "URLBlacklist": {
+         "level": "mandatory",
+         "scope": "user",
+         "source": "sourceCloud",
+         "value": [ "*/html/crosh.html", "chrome://flags", "chrome://inspect" ]
+      },
+      "UptimeLimit": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": 604800
+      },
+      "UsbDetachableWhitelist": {
+         "level": "mandatory",
+         "scope": "machine",
+         "source": "sourceCloud",
+         "value": [  ]
+      }
+   },
+   "extensionPolicies": {
+
+   }
+}
